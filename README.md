@@ -15,13 +15,15 @@ In addition to the github repo for neorv32-examples there is a [webpage](https:/
 
 **neorv32-examples/doc/fpgajtag.pdf** contains a schematic for an adapter to connect a standard 20pin JTAG connector along with serial port and an SPI Flash memory.
 
-* nTRST F13   GPIO_10    JP2_2
-* TCK   T9    GPIO_1_IN0 JP2_1
-* TDI   T15   GPIO_11    JP2_4
-* TDO   T13   GPIO_13    JP2_6
-* TMS   T14   GPIO_12    JP2_5
-* TXD   N14   GPIO_127   JP2_34
-* RXD   L14   GPIO_126   JP2_33
+|Signal|FPGA |Header    |Pin   |
+|------|-----|----------|------|
+|nTRST |F13  |GPIO_10   |JP2_2 |
+|TCK   |T9   |GPIO_1_IN0|JP2_1 |
+|TDI   |T15  |GPIO_11   |JP2_4 |
+|TDO   |T13  |GPIO_13   |JP2_6 |
+||TMS  |T14  |GPIO_12   |JP2_5 |
+|TXD   |N14  |GPIO_127  |JP2_34|
+|RXD   |L14  |GPIO_126  |JP2_33|
 
 ---
 ## Build NEORV32:
