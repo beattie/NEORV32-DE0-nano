@@ -21,7 +21,7 @@ In addition to the github repo for neorv32-examples there is a [webpage](https:/
 |TCK   |T9   |GPIO_1_IN0|JP2_1 |
 |TDI   |T15  |GPIO_11   |JP2_4 |
 |TDO   |T13  |GPIO_13   |JP2_6 |
-||TMS  |T14  |GPIO_12   |JP2_5 |
+|TMS   |T14  |GPIO_12   |JP2_5 |
 |TXD   |N14  |GPIO_127  |JP2_34|
 |RXD   |L14  |GPIO_126  |JP2_33|
 
