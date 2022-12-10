@@ -9,7 +9,7 @@ The development environment for this work is:
 3. Quartus versions 20.1, 21.1 and 22.1std running native
 4. RISC-V GCC [toolchain](https://www.emb4fun.de/riscv/neorv32/index.html)
 
-The first step is to compile and load the VHDL into the FOGA in the DE0-nano, this process uses the Quartus tool. The examples in neorv32-examples were developed with 15.1. Quartus 20.1 seems to be the last version with the SDRAM IP and good DE0-nano support but I was unable to flash the bits to the DE0-nano so I've been using 15.1.
+The first step is to compile and load the VHDL into the FOGA in the DE0-nano, this process uses the Quartus tool. The examples in neorv32-examples were developed with 15. Quartus 20 seems to be the last version with the SDRAM IP and good DE0-nano support but I was unable to flash the bits to the DE0-nano, as it did not seem to be worth the effort to know why I've been using 15.1.
 
 In addition to the github repo for neorv32-examples there is a [webpage](https://www.emb4fun.de/riscv/neorv32/index.html) that goes into more detail. There is also [github repo](https://www.emb4fun.de/riscv/neorv32/index.html) of interest and the original [NEORV32 repo](https://www.emb4fun.de/riscv/neorv32/index.html)
 
@@ -24,7 +24,7 @@ In addition to the github repo for neorv32-examples there is a [webpage](https:/
 * RXD   L14   GPIO_126   JP2_33
 
 ---
-Build NEORV32:
+## Build NEORV32:
 * <Quartus 15,1>
 * File -> Open Project... -> …/NEORV32-DE0-nano/neorv32-examples/de0-nano/de0n-neorv32-sdram-qsys/hw/de0n-neorv32-sdram-qsys.qpf -> Open
 * Under Project Navigator select **Files** right click on _src.top.vhd_Set as Top-Level Entry
@@ -43,3 +43,8 @@ Build NEORV32:
   *  select **Program/Configure** for output_file.jic
   *  Start
   *  Disconnect DE0 and reconnect
+---
+## Build Software
+
+* install RISC-V GCC [toolchain](https://www.emb4fun.de/riscv/neorv32/index.html)
+* Add pathname to PATH e.g. ```export PATH=$PATH=/opt/riscv/bin/```
