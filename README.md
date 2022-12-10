@@ -11,4 +11,4 @@ The development environment for this work is:
 
 The first step is to compile and load the VHDL into the FOGA in the DE0-nano, this process uses the Quartus tool. The examples in neorv32-examples were developed with 15.1. Quartus 20.1 seems to be the last version with the SDRAM IP and good DE0-nano support but I was unable to flash the bits to the DE0-nano so I've been using 15.1.
 
-In addition to the github repo for neorv32-examples there is a [webpage](https://www.emb4fun.de/riscv/neorv32/index.html) that goes into more detail. Another [github repo](https://www.emb4fun.de/riscv/neorv32/index.html) of interest and the original [NEORV32 repo](https://www.emb4fun.de/riscv/neorv32/index.html)
+In addition to the github repo for neorv32-examples there is a [webpage](https://www.emb4fun.de/riscv/neorv32/index.html) that goes into more detail. There is also [github repo](https://www.emb4fun.de/riscv/neorv32/index.html) of interest and the original [NEORV32 repo](https://www.emb4fun.de/riscv/neorv32/index.html)
