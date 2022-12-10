@@ -1,0 +1,3 @@
+[submodule "neorv32-examples"]
+	path = neorv32-examples
+	url = https://github.com/beattie/neorv32-examples.git
