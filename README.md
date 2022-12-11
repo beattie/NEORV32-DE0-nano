@@ -50,3 +50,4 @@ In addition to the github repo for neorv32-examples there is a [webpage](https:/
 
 * install RISC-V GCC [toolchain](https://www.emb4fun.de/riscv/neorv32/index.html)
 * Add pathname to PATH e.g. ```export PATH=$PATH=/opt/riscv/bin/```
+* In the directory **sw** are a number of software examples that build with the RISC-V GCC toolchain.
