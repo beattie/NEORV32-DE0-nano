@@ -8,6 +8,9 @@ The development environment for this work is:
 2. Quartus versions 13.1, 15.1 and 18.1 running in an Ubuntu 16.04 Docker image
 3. Quartus versions 20.1, 21.1 and 22.1std running native
 4. RISC-V GCC [toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
+   * build with Newlib
+   * ./configure --prefix=/opt/riscv --with-arch=rv32gc --with-abi=ilp32d --enable-multilib
+   * make
 
 The first step is to compile and load the VHDL into the FOGA in the DE0-nano, this process uses the Quartus tool. The examples in neorv32-examples were developed with 15. Quartus 20 seems to be the last version with the SDRAM IP and good DE0-nano support but I was unable to flash the bits to the DE0-nano, as it did not seem to be worth the effort to know why I've been using 15.1.
 
