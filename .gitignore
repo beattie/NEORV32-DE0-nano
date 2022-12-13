@@ -1,5 +1,6 @@
 .*.swp
 *.bin
+*.asm
 
 # Prerequisites
 *.d
