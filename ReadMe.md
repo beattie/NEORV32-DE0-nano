@@ -66,6 +66,7 @@ In addition to the github repo for neorv32-examples there is a [webpage](https:/
 ### neorv32-examples - de0n-neorv32-sdram-qsys
 
 * The [webpage](https://www.emb4fun.de/riscv/ses4rv/index.html) details installing Seggar Embedded Studio and configuring a project to build the SDRAM memory test.
+  * Unfortunately J-Link hardware is outrageously expensive and I can't justify the expense and I'm not sure if I trust any of the EBay or Alibaba clones. I do have a BlackPill on order to run Blackmagic and a Jeffprobe (filrc github repo does not currently build) there is a remote possibility that blackmagic can be made to work with Embedded Studio.
 * After opening the project File -> Open Studio Folder -> Project Folder  neorv32-examples/de0-nano/de0n-neorv32-sdram-qsys/sw/prj_
   * The previous step should be verified I'm not sure it completely correct.
 * Add the include directories _../../../../neorv32/sw/lib/include ../inc_.
